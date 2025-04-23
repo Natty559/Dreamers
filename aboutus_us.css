@@ -1,0 +1,150 @@
+
+body{
+    background-color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+h1{
+    font-style: italic,;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+
+}
+video{
+    size-adjust: 20px;
+    height: 100px;
+    width: 10%;
+    padding-left: 10px
+    white-space-collapse: 400px;
+}
+/* Footer */
+/* Footer Styling */
+footer {
+    background-color: aliceblue; /* Dark Blue */
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-info {
+    margin-bottom: 20px;
+}
+
+.footer-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.footer-socials p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.social-link {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #f1c40f; /* Golden color for hover effect */
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    background-color: #e4eef8; /* Slightly darker blue */
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .footer-container {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .footer-info p {
+        font-size: 0.9rem;
+    }
+
+    .social-link {
+        font-size: 1rem;
+        margin: 5px 8px;
+    }
+}
+
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+bold{
+   font-weight: bold;
+}
+header {
+    background-color: #333;
+    color: #160101;
+    padding: 1rem;
+    text-align: center;
+    height: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+} ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+nav :hover {
+    color: #f1c40f; /* Golden color for hover effect */
+}
